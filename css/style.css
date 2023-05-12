@@ -109,8 +109,8 @@ body{
 }
 
 .header .logo img{
-    width: 130%;
-    height: 3rem;
+    width: 120%;
+    height: 4rem;
     top: 0;
     left: 0;
 }
@@ -145,6 +145,13 @@ body{
     cursor: pointer;
     font-size: 3rem;
     display: none;
+}
+
+a.logo{
+    color: #fff;
+    font-size: 4rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .home{
@@ -211,7 +218,7 @@ body{
     text-align: center;
     position: relative;
     overflow: hidden;
-    line-height: 10rem;
+    line-height: 10rem;     
 }
 
 .about .row{
@@ -1082,10 +1089,9 @@ body{
     html{
         font-size: 50%;
     }
-
     .header .logo img{
-        width: 20%;
-        height: 3rem;
+        width: 130%;
+        height: 4rem;
         top: 0;
         left: 0;
         background-size: cover;
