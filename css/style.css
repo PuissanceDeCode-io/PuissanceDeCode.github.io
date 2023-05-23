@@ -715,6 +715,140 @@ a.logo{
     left: -4rem;
 }
 
+
+/*Product*/
+.product{
+    min-width: 100vw;
+    min-height: 95vh;
+    text-align: center;
+    background-color: #222;
+}
+
+.product .heading{
+    color: #00bfff;
+}
+
+.product .heading::before, .team .heading::after{
+    border-color: #00bfff;
+}
+
+.product .row{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .row .card{
+    height: 40rem;
+    width: 35rem;
+    background-color: #fff;
+    text-align: center;
+    margin: 5rem 5rem;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-reflect: below 5px linear-gradient(transparent 70%, #0004);
+    transition: 0.5s;
+}
+
+.product .row .card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+.product .row .card .image{
+    margin: 1rem 0;
+    padding-top: 1rem;
+}
+
+.product .row .card .image img{
+    height: 23rem;
+    width: 30rem;
+    border: .5rem solid #fff;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+    object-fit: cover;
+}
+
+.product .row .card .info h3{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.product .row .card .info span{
+    font-size: 1.8rem;
+    color: #00bfff;
+}
+
+.product .row .card .info .icons a{
+    margin-top: 4rem;
+    padding-top: 0 1rem;
+    font-size: 2rem;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.product .row .card .info .icons .fa-facebook-f:hover, .footer .icons .fa-facebook-f:hover{
+    color: #4267B2;
+    text-decoration: none;
+}
+
+.product .row .card .info .icons .fa-twitter:hover, .footer .icons .fa-twitter:hover{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.product .row .card .info .icons .fa-instagram:hover, .footer .icons .fa-instagram:hover{
+    color: #C13584;
+    text-decoration: none;
+}
+
+.product.row .card .info .icons .fa-linkedin:hover, .footer .icons .fa-linkedin:hover{
+    color: #2867B2;
+    text-decoration: none;
+}
+
+.product .row .card::before, .team .row .card::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    height: 13.5rem;
+    width: 13.5rem;
+    z-index: -1;
+}
+
+.product .row .card::before{
+    background: #00bfff;
+    top: -3rem;
+    right: -4rem;
+}
+
+.product .row .card::after{
+    background: #ccc;
+    bottom: -3rem;
+    left: -4rem;
+}
+
+#mybutton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+#mybutton:hover{
+    background-color: #3e8e41;
+}
+
 .contact{
     text-align: center;
     align-items: center;
@@ -1361,4 +1495,9 @@ a.logo{
             width: 100%;
         }
 }
+
+
+
+
+
 
