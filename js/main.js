@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-    $("#mybutton").click(function(){
+    $(".googleBtn").click(function(){
+        window.location.href = 'https://drive.google.com/drive/folders/1KrcSRoOxYWy1f1EjNFppMzaRlEeTQsvu?usp=sharing';
+    });
+
+    $(".onedriveBtn").click(function(){
         window.location.href = 'https://ortigascaintasti-my.sharepoint.com/personal/belasa_256577_ortigas-cainta_sti_edu_ph/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbelasa%5F256577%5Fortigas%2Dcainta%5Fsti%5Fedu%5Fph%2FDocuments%2FACADEMIA%20THE%20ADVENTURE%20QUEST%2FACADEMIA%20THE%20ADVENTURE%20QUEST%2Ezip&parent=%2Fpersonal%2Fbelasa%5F256577%5Fortigas%2Dcainta%5Fsti%5Fedu%5Fph%2FDocuments%2FACADEMIA%20THE%20ADVENTURE%20QUEST';
     });
 
